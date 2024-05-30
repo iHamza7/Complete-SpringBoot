@@ -10,7 +10,7 @@ public class FirstApplication {
 
 	public static void main(String[] args) {
 		var app = new SpringApplication(FirstApplication.class);
-		app.setDefaultProperties(Collections.singletonMap("spring.profiles.active", "test"));
+		app.setDefaultProperties(Collections.singletonMap("spring.profiles.active", "dev"));
 		var ctx = app.run(args);
 		MyFirstService myFirstService = ctx.getBean(MyFirstService.class);
 		System.out.println(myFirstService.tellAStory());
