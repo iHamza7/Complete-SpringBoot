@@ -9,6 +9,6 @@ public class MyFirstClass {
     }
 
     public String sayHello() {
-        return "hello from my First Class 1 2 3 4 5 7 8 9 10 ===> MyVar =====> " + myVar;
+        return "hello from my First Class  ===> MyVar =====> " + myVar;
     }
 }
