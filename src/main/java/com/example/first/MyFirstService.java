@@ -19,7 +19,7 @@ public class MyFirstService {
     private int customPropertyInt;
     @Value("${my.custom.property}")
     private String customString;
-    @Value("${my.custom.property.int}")
+    @Value("${my.custom.property.int 1}")
     private int customInteger;
 
     public MyFirstService(
