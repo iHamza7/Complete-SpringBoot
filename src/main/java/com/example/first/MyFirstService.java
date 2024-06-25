@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 public class MyFirstService {
 
     private final MyFirstClass myFirstClass;
-    @Value("Hello i am learing Spring boot 1 2 3 4 5 6 7 8 9")
+    @Value("Hello i am learing Spring boot ")
     private String customProperty;
     @Value("${my.prop}")
     private String customPropertyFromAnotherFile;
