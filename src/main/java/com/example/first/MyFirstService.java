@@ -23,7 +23,7 @@ public class MyFirstService {
     private int customInteger;
 
     public MyFirstService(
-            @Qualifier("mySecondClass 1 1 q") MyFirstClass myFirstClass) {
+            @Qualifier("mySecondClass 1 1 q r") MyFirstClass myFirstClass) {
         this.myFirstClass = myFirstClass;
     }
 
