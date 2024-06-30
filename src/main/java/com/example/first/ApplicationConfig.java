@@ -14,6 +14,6 @@ public class ApplicationConfig {
     @Bean
 
     public MyFirstClass mySecondClass() {
-        return new MyFirstClass("Second Bean 1");
+        return new MyFirstClass("Second Bean 1qq");
     }
 }
