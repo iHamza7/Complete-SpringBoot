@@ -40,7 +40,7 @@ public class MyFirstService {
     }
 
     public String tellAStory() {
-        return "the depe  ndency is saying" + myFirstClass.sayHello();
+        return "the depe  ndency is 1 saying" + myFirstClass.sayHello();
     }
 
 }
